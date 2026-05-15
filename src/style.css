@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #eef0e4;
+  --surface: #f6f8f0;
+  --border: #cad4b4;
+  --border-hover: #9ab880;
+  --primary: #5a7a48;
+  --primary-hover: #486638;
+  --primary-soft: #dce8cc;
+  --text: #1a2a12;
+  --text-muted: #607050;
+  --shadow: 0 4px 24px rgba(90, 122, 72, 0.13);
+  --shadow-hover: 0 8px 32px rgba(90, 122, 72, 0.22);
+  --radius-card: 18px;
+  --radius-btn: 50px;
+}
