@@ -42,20 +42,20 @@ const { data: breeds, isLoading, isError, error, refetch } = useBreeds()
 </script>
 
 <style scoped>
-/* Block */
+/* its like block */
 .overview {
   padding: 2.5rem 2rem 5rem;
   max-width: 1300px;
   margin: 0 auto;
 }
 
-/* Element: hero section */
+/* hero section */
 .overview__hero {
   text-align: center;
   margin-bottom: 2.5rem;
 }
 
-/* Element: main heading */
+/* main heading */
 .overview__title {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(2rem, 4vw, 3rem);
@@ -65,13 +65,13 @@ const { data: breeds, isLoading, isError, error, refetch } = useBreeds()
   color: var(--text);
 }
 
-/* Element: italic part of the title */
+/* italic part */
 .overview__title-em {
   font-style: italic;
   color: var(--primary);
 }
 
-/* Element: locker room wall */
+/* locker room wall */
 .overview__room {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
@@ -84,7 +84,7 @@ const { data: breeds, isLoading, isError, error, refetch } = useBreeds()
     inset 0 -6px 0 rgba(0,0,0,0.2);
 }
 
-/* Element: skeleton locker placeholder */
+/* skeleton locker placeholder */
 .overview__skeleton {
   aspect-ratio: 2 / 3;
   border-radius: 4px;
@@ -98,7 +98,7 @@ const { data: breeds, isLoading, isError, error, refetch } = useBreeds()
   100% { background-position: -200% 0; }
 }
 
-/* Element: error container */
+/* error container */
 .overview__error {
   text-align: center;
   padding: 5rem 1rem;
@@ -108,20 +108,20 @@ const { data: breeds, isLoading, isError, error, refetch } = useBreeds()
   gap: 0.6rem;
 }
 
-/* Element: error heading */
+/*  error heading */
 .overview__error-heading {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-/* Element: error description */
+/*  error description */
 .overview__error-body {
   color: var(--text-muted);
   font-size: 0.92rem;
 }
 
-/* PrimeVue Button colour override */
+/* PrimeVue Button colour like to override */
 .overview__btn:deep(.p-button) {
   background: var(--primary);
   border-color: var(--primary);

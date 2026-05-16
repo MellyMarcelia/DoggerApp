@@ -67,7 +67,7 @@ function capitalize(str) {
   padding: 2.5rem 1.5rem 5rem;
 }
 
-/* Element: back navigation link */
+/* to go back navigation link */
 .detail__back {
   display: inline-flex;
   align-items: center;
@@ -84,7 +84,7 @@ function capitalize(str) {
   color: var(--primary);
 }
 
-/* Element: card container */
+/* card container */
 .detail__card {
   background: var(--surface);
   border: 1.5px solid var(--border);
@@ -97,14 +97,14 @@ function capitalize(str) {
   box-shadow: var(--shadow);
 }
 
-/* Element: text header inside the card */
+/* text header inside the card */
 .detail__header {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
 }
 
-/* Element: small label above the breed name */
+/* small label above the breed name */
 .detail__eyebrow {
   font-size: 0.75rem;
   font-weight: 700;
@@ -113,7 +113,7 @@ function capitalize(str) {
   color: var(--primary);
 }
 
-/* Element: breed name heading */
+/* breed name heading */
 .detail__name {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(2rem, 6vw, 2.8rem);
@@ -122,7 +122,7 @@ function capitalize(str) {
   letter-spacing: -0.02em;
 }
 
-/* Element: placeholder shown while loading or on error */
+/* placeholder shown while loading or on error */
 .detail__placeholder {
   aspect-ratio: 4 / 3;
   border-radius: 16px;
@@ -134,24 +134,24 @@ function capitalize(str) {
   gap: 0.8rem;
 }
 
-/* Modifier: error variant of placeholder */
+/* error variant of placeholder */
 .detail__placeholder--error {
   border: 2px dashed var(--border-hover);
 }
 
-/* Element: label inside loading placeholder */
+/*  label inside loading placeholder */
 .detail__placeholder-label {
   font-size: 0.88rem;
   color: var(--text-muted);
 }
 
-/* Element: error message inside placeholder */
+/* error message inside placeholder */
 .detail__error-text {
   color: var(--text-muted);
   font-size: 0.95rem;
 }
 
-/* Element: image wrapper (handles fade-in) */
+/* image wrapper (handles fade-in) */
 .detail__image-wrap {
   border-radius: 16px;
   overflow: hidden;
@@ -161,13 +161,13 @@ function capitalize(str) {
   transition: opacity 0.45s ease, transform 0.45s ease;
 }
 
-/* Modifier: image has finished loading */
+/* image has finished loading */
 .detail__image-wrap--loaded {
   opacity: 1;
   transform: scale(1);
 }
 
-/* Element: the dog photo */
+/* the dog photo */
 .detail__image {
   display: block;
   width: 100%;
@@ -176,13 +176,13 @@ function capitalize(str) {
   object-fit: cover;
 }
 
-/* PrimeVue ProgressSpinner colour override */
+/* PrimeVue ProgressSpinner colour like to override */
 :deep(.p-progress-spinner-circle) {
   stroke: var(--primary) !important;
 }
 
 
-/* PrimeVue Button colour override */
+/* PrimeVue Button colour like to override */
 .detail__btn:deep(.p-button) {
   background: var(--primary);
   border-color: var(--primary);
